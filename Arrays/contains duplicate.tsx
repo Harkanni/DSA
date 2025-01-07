@@ -1,3 +1,4 @@
+// @ts-ignore
 const arr = [1, 2, 3, 4, 1]
 
 // const containsDuplicate = (arr) => {
@@ -25,7 +26,7 @@ const arr = [1, 2, 3, 4, 1]
 // } // Time = O(n); space = O(n);
 
 
-const containsDuplicate = (arr) => {
+const containsDuplicate = (arr: number[]) => {
    for(var i=0; i<arr.length; i++) {
       let idx = Math.abs(arr[i] - 1)
 
