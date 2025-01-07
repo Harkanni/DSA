@@ -1,5 +1,5 @@
 // @ts-ignore
-const arr = [1, 2, 3, 4, 1]
+const arr = [1, 3, 2, 4, 1]
 
 // const containsDuplicate = (arr) => {
 //    for (var i = 0; i < arr.length - 1; i++) {
@@ -30,7 +30,7 @@ const containsDuplicate = (arr: number[]) => {
    for(var i=0; i<arr.length; i++) {
       let idx = Math.abs(arr[i] - 1)
 
-      arr[idx] = Math.abs(arr[i]) * -1
+      arr[idx] = Math.abs(arr[idx]) * -1
       console.log(arr)
    }
 
