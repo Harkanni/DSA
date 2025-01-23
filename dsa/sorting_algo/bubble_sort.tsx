@@ -12,7 +12,7 @@ const bubbleSort = (arr: number[]): number[] => {
    }
 
    console.log(arr);
-   return arr
+   return arr 
 }
 
 bubbleSort(arr)
